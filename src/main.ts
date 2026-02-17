@@ -1,5 +1,5 @@
 import "./style.css";
-import "./bases/05-functions";
+import "./bases/09-promises";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
