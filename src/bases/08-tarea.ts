@@ -6,7 +6,7 @@
 // console.log(name)
 // setName("Vegeta")
 
-import { heroes } from  "./heroes.data"
+import { heroes } from  "../data/heroes.data"
 
 const findHeroById = (heroId: number) => {
     const h = heroes.find((hero) => hero.id === heroId)

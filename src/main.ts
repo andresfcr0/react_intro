@@ -1,5 +1,5 @@
 import "./style.css";
-import "./bases/09-promises";
+import "./bases/11-async-await";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
