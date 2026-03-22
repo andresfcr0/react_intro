@@ -18,4 +18,4 @@ const getRandomGifUrl = async () => {
 }
 
 
-getRandomGifUrl().then(url => createImageInsideDOM(url))
+getRandomGifUrl().then(createImageInsideDOM)
